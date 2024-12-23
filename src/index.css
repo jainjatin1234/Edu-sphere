@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind CSS */
+.scroll-container {
+  /* min-height: 100vh; Ensure it covers at least the viewport height */
+  overflow: hidden; /* Prevent overflow issues */
+  position: relative; /* Position relative to ensure correct layout */
+}
+
+/* Custom CSS */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  overflow-x: hidden;
+}
+
+.rotate-shake-button {
+  @apply animate-shake;
+}
+* {
+  font-family: MUlish, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+html {
+  -webkit-user-select: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
