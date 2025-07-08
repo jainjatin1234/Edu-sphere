@@ -28,7 +28,7 @@ const Register = () => {
     // Handle registration logic here
     try {
       const response = await axios.post(
-        "http://localhost:5000/user/v2/register",
+        "https://learn-sphere-learnsphere.netlify.app/user/v2/register",
         {
           username,
           email,
