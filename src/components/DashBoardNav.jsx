@@ -18,7 +18,7 @@ const DashBoardNav = () => {
   const handleLogout = async () => {
     try {
       await axios.post(
-        "http://localhost:5000/user/v2/logout",
+        "https://edu-sphere-backend.onrender.com/user/v2/logout",
         {},
         { withCredentials: true }
       );
