@@ -28,7 +28,7 @@ const Register = () => {
     // Handle registration logic here
     try {
       const response = await axios.post(
-        "https://edu-sphere-backend.onrender.com/user/v2/register",
+        "http://localhost:5000/user/v2/register",
         {
           username,
           email,

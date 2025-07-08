@@ -7,7 +7,7 @@ import { FaBook } from "react-icons/fa";
 import { TbLivePhoto } from "react-icons/tb";
 import { FaUserCheck } from "react-icons/fa";
 import { GrAnnounce } from "react-icons/gr";
-
+import download from '../assets/images/download.jpeg'
 const Content = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -99,7 +99,7 @@ const Content = () => {
             <div className="bg-white shadow rounded-lg p-6">
               <div className="flex flex-col lg:flex-row gap-4 items-start">
                 <img
-                  src="https://via.placeholder.com/200x150"
+                  src={download}
                   alt="Course Thumbnail"
                   className="w-full lg:w-1/4 rounded-md"
                 />

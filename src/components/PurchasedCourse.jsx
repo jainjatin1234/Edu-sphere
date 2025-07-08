@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import download from '../assets/images/download.jpeg'
 
 const PurchasedCourse = () => {
   const navigate = useNavigate();
@@ -8,7 +9,7 @@ const PurchasedCourse = () => {
       <div className="flex flex-wrap space-y-4 sm:space-y-0 sm:space-x-4">
         <div className="w-full sm:w-64 h-40 bg-gray-200 rounded-lg flex items-center justify-center">
           <img
-            src="https://via.placeholder.com/150"
+            src={download}
             alt="Course Preview"
             className="rounded-lg"
           />
