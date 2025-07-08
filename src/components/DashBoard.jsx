@@ -15,7 +15,7 @@ const DashBoard = () => {
     const fetchUserData = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/user/v2/dashboard",
+          "https://edu-sphere-backend.onrender.com/user/v2/dashboard",
           {
             withCredentials: true, // Ensures the authToken cookie is sent
           }

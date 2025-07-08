@@ -10,7 +10,7 @@ export const CoursesProvider = ({ children }) => {
     const fetchCourses = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/course/v2/courses"
+          "https://edu-sphere-backend.onrender.com/course/v2/courses"
         );
         setCourses(response.data);
       } catch (error) {

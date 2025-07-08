@@ -10,7 +10,7 @@ export const AuthContextProvider = ({ children }) => {
     const checkAuth = async () => {
       try {
         const { data } = await axios.get(
-          "http://localhost:5000/user/v2/auth/check",
+          "https://edu-sphere-backend.onrender.com/user/v2/auth/check",
           {},
           {
             withCredentials: true,
